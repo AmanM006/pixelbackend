@@ -21,7 +21,7 @@ const server = http.createServer(app);
 // Initialize WebSocket Server
 const io = socketIo(server, {
     cors: {
-        origin: "http://127.0.0.1:5500",
+    origin: ["https://amanm006.github.io", "http://127.0.0.1:5500"],
         methods: ["GET", "POST"],
         credentials: true
     }
