@@ -29,7 +29,7 @@ const io = socketIo(server, {
 
 // Middleware
 app.use(cors({
-    origin: "http://127.0.0.1:5500",
+    origin: "https://amanm006.github.io",
     methods: ["GET", "POST"],
     credentials: true
 }));
